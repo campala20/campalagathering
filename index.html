@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campala Gathering</title>
+
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Latar belakang biru muda */
+            color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Membuat halaman menutupi seluruh layar */
+            text-align: center;
+            
+            
+        }
+
+        .welcome-container {
+            /* margin-top: 60%; */
+            background-color: rgba(0, 0, 0, 0.9); /* Latar belakang putih transparan */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 15px 25px rgb(0, 0, 0);
+            max-width: 90%; /* Membuat kontainer lebih fleksibel */
+            width: 100%;
+            animation: fadeIn 2s ease-out;
+            height: 80vh;
+        }
+
+        .welcome-image {
+            margin-top: 10%;
+            width: 700px;
+            height: 350px;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            animation: bounceIn 2s ease-out;
+            
+        }
+
+        /* Animasi Fade In */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animasi Bounce In */
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            60% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Responsive Design for Small Screens */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px; /* Menyesuaikan ukuran font untuk layar kecil */
+            }
+
+            p {
+                font-size: 14px; /* Ukuran font lebih kecil di layar kecil */
+            }
+
+            .welcome-image {
+                width: 200px; /* Menyesuaikan ukuran gambar untuk layar kecil */
+            }
+
+            .welcome-container {
+                padding: 15px;
+                border-radius: 10px;
+            }
+        }
+    </style>
+    <script>
+        // Redirect otomatis setelah 5 detik
+        setTimeout(function(){
+            window.location.href = "home.html";  // Ganti dengan URL halaman tujuan
+        }, 5000);  // 5000 milidetik = 5 detik
+    </script>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <img src="asset/Gemini_Generated_Image_fixcc4fixcc4fixc-removebg-preview.png" alt="Welcome Image" class="welcome-image">
+        
+    </div>
+
+</body>
+</html>

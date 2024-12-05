@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>CAMPALA20</title>
+</head>
+
+<body>
+    <div class="mobile-wrap">
+        <div class="mobile clearfix">
+            <div class="header">
+                <span class="ion-ios-navicon pull-left"><i></i></span>
+                <span class="title">HOME</span>
+                <span class="ion-ios-search pull-right"></span>
+                <div class="search">
+                    <form method="post">
+                        <input type="search" placeholder="Search Here">
+                    </form>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-overlay"></div>
+                <div class="sidebar-content">
+                    <div class="top-head">
+                        <div class="name">CAMPALA</div>
+                        <div class="email">Gathering 2024</div>
+                    </div>
+                    <div class="nav-left">
+                        <a href="#home"><span class="ion-ios-home-outline"></span> Home</a>
+                        <a href="#alarm"><span class="ion-ios-people-outline"></span>Collective Wearers</a>
+                        <a href="#compose"><span class="ion-ios-camera-outline"></span> Gallery</a>
+                        <a href="#chats"><span class="ion-ios-videocam-outline"></span> Moments</a>
+                        <a href="#profile"><span class="ion-ios-person-outline"></span> Profile</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="html search">
+                    <div class="title bounceInDown animated">Search Result</div>
+                    <p class="flipInX animated">Sorry,<br>no matches found for <b class="key"></b></p>
+                </div>
+
+                <style>
+                    .gif {
+                        width: 320px; /* Menyesuaikan lebar GIF */
+                        height: auto; /* Menjaga rasio aspek GIF */
+                        margin-top: 20px; /* Memberi jarak antara informasi dan GIF */
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto; /* Memposisikan GIF di tengah */
+                    }
+                </style>
+                
+
+                <div class="html welcome visible">
+                    <div class="datetime">
+                        <div class="day lightSpeedIn animated">Thursday</div>
+                        <div class="date lightSpeedIn animated">June 18, 2015</div>
+                        <div class="time lightSpeedIn animated">08:00 AM</div>
+                        
+                        <!-- Menambahkan gambar di bawah informasi -->
+                        <img src="asset/Desain-tanpa-judul-1--unscreen.gif" alt="GIF 3D T-shirt" class="gif" />
+
+                    </div>
+                </div>
+
+
+                <!-- Members -->
+                <div class="html alarm">
+                    <br>
+                    <div class="datetime pull-left bounceInLeft animated">
+                        <div class="day">"The wearers of these shirts are participating in the event."</div>
+                        <div class="date">15-16 Desember 2024</div>
+                    </div>
+                    <br>
+
+                    <div class="alarm-list">
+                        <!-- Members List -->
+
+                        <div class="note clearfix slideInRight animated" data-revert="slideOutRight">
+                            <div class="note clearfix slideInRight animated">
+                                <div class="time pull-left">
+                                    <div class="hour">
+                                        <div class="user-list clearfix">
+                                            <div class="user pull-left">
+                                                <img src="asset/WhatsApp Image 2024-12-03 at 14.57.02 (3).jpeg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="to-do pull-left">
+                                    <div class="title">Syaiful</div>
+                                    <div class="subject">Gear Master</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.02 (5).jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Chemonk</div>
+                                <div class="subject">Master Planner</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/IMG_20230603_093605.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Rifki Krisna Maulana</div>
+                                <div class="subject">Code Magician</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/aep.jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Aep</div>
+                                <div class="subject">Auto Aim</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.02 (4).jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Surya Sukma Wijaya</div>
+                                <div class="subject">Public Relations</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/195397427_1613238348865370_5298871982722384106_n.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Akhyar</div>
+                                <div class="subject">Cyber Sentinel</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.01 (2).jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Sidik ALbino</div>
+                                <div class="subject">Volunteer King</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/IMG_20230603_093444.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Rahmat</div>
+                                <div class="subject">Afro Picasso</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.01 (4).jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Amin</div>
+                                <div class="subject">Busy Working</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/DSC09096.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Arif</div>
+                                <div class="subject">Soccer Betting</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.01.jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">YayanK</div>
+                                <div class="subject">Vibes Check</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/WhatsApp Image 2024-12-03 at 14.57.00.jpeg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Acung</div>
+                                <div class="subject">Star Boys</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/JMD.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Jumady</div>
+                                <div class="subject">Lying Man</div>
+                            </div>
+                        </div>
+
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/jidoo.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Jido</div>
+                                <div class="subject">Night Watcher</div>
+                            </div>
+                        </div>
+
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/IMG-20200817-WA0108.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Balon</div>
+                                <div class="subject">Hyper Sex</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/gambar-orang-tanda-tanya-1-removebg-preview.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Daenk Asis</div>
+                                <div class="subject">Captain Chaos</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/gambar-orang-tanda-tanya-1-removebg-preview.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Puding</div>
+                                <div class="subject">Gemoy Man</div>
+                            </div>
+                        </div>
+
+                        <div class="note clearfix slideInRight animated">
+                            <div class="time pull-left">
+                                <div class="hour">
+                                    <div class="user-list clearfix">
+                                        <div class="user pull-left">
+                                            <img src="asset/gambar-orang-tanda-tanya-1-removebg-preview.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do pull-left">
+                                <div class="title">Nasar</div>
+                                <div class="subject">Yakult Bottle</div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <!-- Galerry -->
+                <div class="html compose">
+
+                    <style>
+                        @import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+
+                        #carousel {
+                            position: relative;
+                            height: 400px;
+                            top: 225px;
+                            transform: translateY(-50%);
+                            overflow: hidden;
+                        }
+
+                        #carousel div {
+                            position: absolute;
+                            transition: transform 1s, opacity 1s;
+                            opacity: 0;
+                            z-index: 0;
+                        }
+
+                        #carousel div img {
+                            width: 400px;
+                            transition: width 1s;
+                        }
+
+                        #carousel div.selected {
+                            opacity: 1;
+                            z-index: 5;
+                            left: 50%;
+                            transform: translateY(0) translateX(-50%);
+                        }
+
+                        #carousel div.prev,
+                        #carousel div.next,
+                        #carousel div.prevLeftSecond,
+                        #carousel div.nextRightSecond,
+                        #carousel div.hideLeft,
+                        #carousel div.hideRight {
+                            opacity: 0;
+                            z-index: 0;
+                        }
+
+
+                        .buttons {
+                            position: fixed;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            bottom: 85px;
+                        }
+                    </style>
+
+                    <div id="carousel">
+                        <div class="selected">
+                            <img src="asset/IMG-20241202-WA0000-removebg-preview.png">
+                        </div>
+
+                        <div class="hideLeft">
+                            <img src="asset/WhatsApp Image 2024-11-24 at 15.53.32.jpeg">
+                        </div>
+
+                        <div class="prevLeftSecond">
+                            <img src="asset/WhatsApp Image 2024-11-24 at 10.50.21.jpeg">
+                        </div>
+
+                        <div class="prev">
+                            <img src="asset/WhatsApp Image 2024-11-24 at 10.14.30.jpeg">
+                        </div>
+
+                        <div class="next">
+                            <img src="asset/IMG_20231030_210143.jpg">
+                        </div>
+
+                        <div class="nextRightSecond">
+                            <img src="asset/IMG-20200817-WA0154.jpg">
+                        </div>
+
+                        <div class="hideRight">
+                            <img src="asset/Mp.jpg">
+                        </div>
+                    </div>
+
+
+                    <style>
+                        /* Container buttons */
+                        .buttons {
+                            display: flex;
+                            justify-content: center;
+                            gap: 20px;
+                            /* Jarak antar tombol */
+                            margin-top: 20px;
+                        }
+
+                        /* Style untuk tombol */
+                        button {
+                            padding: 10px 20px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            background-color: #4CAF50;
+                            /* Warna latar belakang tombol */
+                            color: white;
+                            /* Warna teks */
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            transition: transform 0.3s ease, background-color 0.3s ease;
+                        }
+
+                        /* Hover effect */
+                        button:hover {
+                            background-color: #45a049;
+                            /* Warna latar belakang saat hover */
+                            transform: translateY(-5px);
+                            /* Efek angkat saat hover */
+                        }
+
+                        /* Effect saat tombol ditekan */
+                        button:active {
+                            transform: translateY(2px);
+                            /* Efek tekan saat tombol diklik */
+                        }
+
+                        /* Style khusus untuk tombol 'Prev' */
+                        #prev {
+                            background-color: #f44336;
+                            /* Merah */
+                        }
+
+                        #prev:hover {
+                            background-color: #e53935;
+                            /* Merah lebih gelap saat hover */
+                        }
+
+                        /* Style khusus untuk tombol 'Next' */
+                        #next {
+                            background-color: #008CBA;
+                            /* Biru */
+                        }
+
+                        #next:hover {
+                            background-color: #007bb5;
+                            /* Biru lebih gelap saat hover */
+                        }
+                    </style>
+
+                    <div class="buttons">
+                        <button id="prev">Prev</button>
+                        <button id="next">Next</button>
+                    </div>
+
+                    <script>
+                        function moveToSelected(element) {
+
+                            if (element == "next") {
+                                var selected = $(".selected").next();
+                            } else if (element == "prev") {
+                                var selected = $(".selected").prev();
+                            } else {
+                                var selected = element;
+                            }
+
+                            var next = $(selected).next();
+                            var prev = $(selected).prev();
+                            var prevSecond = $(prev).prev();
+                            var nextSecond = $(next).next();
+
+                            $(selected).removeClass().addClass("selected");
+
+                            $(prev).removeClass().addClass("prev");
+                            $(next).removeClass().addClass("next");
+
+                            $(nextSecond).removeClass().addClass("nextRightSecond");
+                            $(prevSecond).removeClass().addClass("prevLeftSecond");
+
+                            $(nextSecond).nextAll().removeClass().addClass('hideRight');
+                            $(prevSecond).prevAll().removeClass().addClass('hideLeft');
+
+                        }
+
+                        // Eventos teclado
+                        $(document).keydown(function (e) {
+                            switch (e.which) {
+                                case 37: // left
+                                    moveToSelected('prev');
+                                    break;
+
+                                case 39: // right
+                                    moveToSelected('next');
+                                    break;
+
+                                default: return;
+                            }
+                            e.preventDefault();
+                        });
+
+                        $('#carousel div').click(function () {
+                            moveToSelected($(this));
+                        });
+
+                        $('#prev').click(function () {
+                            moveToSelected('prev');
+                        });
+
+                        $('#next').click(function () {
+                            moveToSelected('next');
+                        });
+
+                    </script>
+
+                </div>
+
+                <!-- Moments -->
+                <div class="html chats">
+
+                    <style>
+                        .container {
+                            margin: auto;
+                            max-width: 1024px;
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            position: relative;
+                        }
+
+                        .box {
+                            width: 300px;
+                            height: 450px;
+                            background: #fff;
+                            margin-top: 50px;
+                            margin-left: 20px;
+                            margin-right: 100px;
+                            border-radius: 5px;
+                            box-shadow: 6px 18px 18px rgba(0, 0, 0, 0.08), -6px 18px 18px rgba(0, 0, 0, 0.08);
+                        }
+
+                        .animation {
+                            margin-top: 20%;
+                            display: inline-block;
+                            margin-bottom: 5%;
+                        }
+
+                        h1 {
+                            color: #000;
+                            font-size: 32px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            margin: 0;
+                            line-height: 30px;
+                        }
+
+                        p {
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin: 0;
+                        }
+
+                        a {
+                            color: #f6921e;
+                            font-weight: bold;
+                            text-decoration: none;
+                            margin-left: 5px;
+                        }
+
+                        .one,
+                        .two,
+                        .three {
+                            display: block;
+                            float: left;
+                        }
+
+                        .one {
+                            background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2281px%22%20height%3D%2280.5px%22%20viewBox%3D%220%200%2081%2080.5%22%20style%3D%22overflow%3Ascroll%3Benable-background%3Anew%200%200%2081%2080.5%3B%22%0A%09%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3A%23383838%3B%7D%0A%3C%2Fstyle%3E%0A%3Cdefs%3E%0A%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M30.3%2C68.2c1.2%2C0.2%2C2.3%2C0.9%2C3.8%2C1.2c1.6%2C0.3%2C2.7%2C0.6%2C4%2C0.4l4.9%2C9.6c0.6%2C0.9%2C1.4%2C1.1%2C2.3%2C0.9l15.3-4.9%0A%09c0.5-0.3%2C1-1%2C0.9-2.3l-1.8-10.6c2-1.6%2C3.6-3.7%2C5.3-5.8l10.5%2C0.6c1.1%2C0.6%2C2.1-0.4%2C2.3-1.1L81%2C40.7c0.2-0.8-0.4-2.1-1.1-2.3l-10.2-3.8%0A%09c-0.3-2.5-1.4-4.8-2.5-7.5l5.9-8.5c0.6-1.1%2C0.4-1.9-0.2-2.9l-12-10.7c-0.3-0.5-1.6-0.3-2.5%2C0.3l-8%2C6.9c-1.2-0.2-2.3-0.9-3.8-1.2%0A%09c-1.6-0.3-2.7-0.6-4-0.4L37.7%2C1c-0.6-0.9-1.4-1.1-2.3-0.9L20.1%2C5c-0.5%2C0.3-1%2C1-0.9%2C2.3l1.8%2C10.6c-2%2C1.6-3.6%2C3.7-5.3%2C5.8L5.3%2C23%0A%09c-0.8-0.2-1.7%2C0.4-2%2C1.6L0%2C40.2c-0.2%2C0.8%2C0.4%2C2.1%2C1.1%2C2.3l9.8%2C3.7c0.7%2C2.6%2C1.4%2C5.2%2C2.5%2C7.5l-6%2C8.9c-0.6%2C0.7-0.4%2C2%2C0.3%2C2.5l12%2C10.7%0A%09c0.7%2C0.5%2C1.9%2C0.8%2C2.4%2C0.1L30.3%2C68.2z%20M26.7%2C37.3c1.6-7.4%2C9.1-12.3%2C16.5-10.8S55.6%2C35.7%2C54%2C43.1c-1.6%2C7.4-9.1%2C12.3-16.5%2C10.7%0A%09C30.1%2C52.3%2C25.1%2C44.7%2C26.7%2C37.3L26.7%2C37.3z%22%2F%3E%0A%3C%2Fsvg%3E');
+                            width: 80px;
+                            height: 80px;
+                            background-size: 100% 100%;
+                            background-repeat: no-repeat;
+                            margin-top: -10px;
+                            margin-right: 8px;
+                        }
+
+                        .two {
+                            background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%22103px%22%20height%3D%22103.7px%22%20viewBox%3D%220%200%20103%20103.7%22%0A%09%20style%3D%22overflow%3Ascroll%3Benable-background%3Anew%200%200%20103%20103.7%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3A%23F6921E%3B%7D%0A%3C%2Fstyle%3E%0A%3Cdefs%3E%0A%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M87.3%2C64.8c0.3-1.5%2C1.1-2.9%2C1.6-4.9c0.4-2%2C0.7-3.5%2C0.5-5.1l12.3-6.3c1.2-0.8%2C1.4-1.8%2C1.1-2.9l-6.3-19.6%0A%09c-0.4-0.6-1.3-1.3-2.9-1.1l-13.5%2C2.3c-2.1-2.5-4.7-4.7-7.4-6.8l0.8-13.4C74.3%2C5.8%2C73%2C4.5%2C72%2C4.3L52.1%2C0c-1-0.2-2.7%2C0.5-2.9%2C1.5%0A%09l-4.8%2C13c-3.2%2C0.4-6.1%2C1.8-9.5%2C3.2l-10.9-7.5c-1.4-0.8-2.5-0.5-3.7%2C0.3L6.5%2C25.8c-0.6%2C0.4-0.4%2C2%2C0.4%2C3.2l8.8%2C10.2%0A%09c-0.3%2C1.5-1.1%2C2.9-1.5%2C4.9c-0.4%2C2-0.7%2C3.5-0.6%2C5.1L1.2%2C55.4c-1.2%2C0.8-1.4%2C1.8-1.1%2C2.9l6.3%2C19.6c0.4%2C0.6%2C1.3%2C1.3%2C2.9%2C1.1l13.5-2.3%0A%09c2.1%2C2.5%2C4.7%2C4.7%2C7.4%2C6.8l-0.8%2C13.4c-0.2%2C1%2C0.6%2C2.2%2C2.1%2C2.5l20%2C4.2c1%2C0.2%2C2.7-0.5%2C2.9-1.5l4.7-12.6c3.3-0.9%2C6.6-1.7%2C9.5-3.2L80.1%2C94%0A%09c0.9%2C0.7%2C2.5%2C0.5%2C3.2-0.4L97%2C78.3c0.7-0.9%2C1-2.4%2C0.1-3.1L87.3%2C64.8z%20M47.8%2C69.5C38.3%2C67.5%2C32%2C57.8%2C34%2C48.3%0A%09c2-9.5%2C11.7-15.8%2C21.2-13.8c9.5%2C2%2C15.7%2C11.7%2C13.7%2C21.2C66.9%2C65.2%2C57.3%2C71.5%2C47.8%2C69.5L47.8%2C69.5z%22%2F%3E%0A%3C%2Fsvg%3E');
+                            width: 100px;
+                            height: 100px;
+                            background-size: 100% 100%;
+                            background-repeat: no-repeat;
+                        }
+
+
+                        .three {
+                            background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2281px%22%20height%3D%2280.5px%22%20viewBox%3D%220%200%2081%2080.5%22%20style%3D%22overflow%3Ascroll%3Benable-background%3Anew%200%200%2081%2080.5%3B%22%0A%09%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3A%23383838%3B%7D%0A%3C%2Fstyle%3E%0A%3Cdefs%3E%0A%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M30.3%2C68.2c1.2%2C0.2%2C2.3%2C0.9%2C3.8%2C1.2c1.6%2C0.3%2C2.7%2C0.6%2C4%2C0.4l4.9%2C9.6c0.6%2C0.9%2C1.4%2C1.1%2C2.3%2C0.9l15.3-4.9%0A%09c0.5-0.3%2C1-1%2C0.9-2.3l-1.8-10.6c2-1.6%2C3.6-3.7%2C5.3-5.8l10.5%2C0.6c1.1%2C0.6%2C2.1-0.4%2C2.3-1.1L81%2C40.7c0.2-0.8-0.4-2.1-1.1-2.3l-10.2-3.8%0A%09c-0.3-2.5-1.4-4.8-2.5-7.5l5.9-8.5c0.6-1.1%2C0.4-1.9-0.2-2.9l-12-10.7c-0.3-0.5-1.6-0.3-2.5%2C0.3l-8%2C6.9c-1.2-0.2-2.3-0.9-3.8-1.2%0A%09c-1.6-0.3-2.7-0.6-4-0.4L37.7%2C1c-0.6-0.9-1.4-1.1-2.3-0.9L20.1%2C5c-0.5%2C0.3-1%2C1-0.9%2C2.3l1.8%2C10.6c-2%2C1.6-3.6%2C3.7-5.3%2C5.8L5.3%2C23%0A%09c-0.8-0.2-1.7%2C0.4-2%2C1.6L0%2C40.2c-0.2%2C0.8%2C0.4%2C2.1%2C1.1%2C2.3l9.8%2C3.7c0.7%2C2.6%2C1.4%2C5.2%2C2.5%2C7.5l-6%2C8.9c-0.6%2C0.7-0.4%2C2%2C0.3%2C2.5l12%2C10.7%0A%09c0.7%2C0.5%2C1.9%2C0.8%2C2.4%2C0.1L30.3%2C68.2z%20M26.7%2C37.3c1.6-7.4%2C9.1-12.3%2C16.5-10.8S55.6%2C35.7%2C54%2C43.1c-1.6%2C7.4-9.1%2C12.3-16.5%2C10.7%0A%09C30.1%2C52.3%2C25.1%2C44.7%2C26.7%2C37.3L26.7%2C37.3z%22%2F%3E%0A%3C%2Fsvg%3E');
+                            width: 80px;
+                            height: 80px;
+                            background-size: 100% 100%;
+                            background-repeat: no-repeat;
+                            margin-top: -50px;
+                            margin-left: -10px;
+                        }
+
+                        @keyframes spin-one {
+                            0% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                            }
+
+                            100% {
+                                -webkit-transform: rotate(-359deg);
+                                transform: rotate(-359deg);
+                            }
+                        }
+
+                        .spin-one {
+                            -webkit-animation: spin-one 1.5s infinite linear;
+                            animation: spin-one 1.5s infinite linear;
+                        }
+
+                        @keyframes spin-two {
+                            0% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                            }
+
+                            100% {
+                                -webkit-transform: rotate(-359deg);
+                                transform: rotate(359deg);
+                            }
+                        }
+
+                        .spin-two {
+                            -webkit-animation: spin-two 2s infinite linear;
+                            animation: spin-two 2s infinite linear;
+                        }
+                    </style>
+
+                    <div class="container">
+                        <div class="box">
+                            <div class="animation">
+                                <div class="one spin-one"></div>
+                                <div class="two spin-two"></div>
+                                <div class="three spin-one"></div>
+                            </div>
+                            <h1>Under maintenance</h1>
+                            <p>Update in progress. Please run installer to finish update.</p>
+                            <p>Maintenance screen for<a href="index.html#toggle" target="_blank">Campalagathering</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile -->
+                <div class="html profile">
+                    <div class="photo flipInX animated">
+                        <img src="asset/logo.jpg">
+                        <div class="social">
+                            <a href="#" class="soc-item soc-count-8"><span class="ion-social-facebook"></span></a>
+                            <a href="#" class="soc-item soc-count-2"><span class="ion-social-twitter"></span></a>
+                            <a href="https://github.com/campala20" class="soc-item soc-count-3"><span
+                                    class="ion-social-github"></span></a>
+                            <a href="#" class="soc-item soc-count-4"><span class="ion-social-pinterest"></span></a>
+                            <a href="#" class="soc-item soc-count-5"><span class="ion-social-linkedin"></span></a>
+                            <a href="#" class="soc-item soc-count-6"><span class="ion-social-codepen"></span></a>
+                            <a href="#" class="soc-item soc-count-7"><span class="ion-social-skype"></span></a>
+                            <a href="https://instagram.com/campala20" class="soc-item soc-count-1"><span
+                                    class="ion-social-instagram"></span></a>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p class="heading flipInY animated">
+                            <span class="name">CAMPALA</span><span class="position">Chamal Pegiat Alam</span>
+                        </p>
+                        <p class="text fadeInUp animated">Hi, It's me Campala from Kamal Muara. Komunitas pemuda Kamal
+                            Muara yang mempunyai minat, kepedulian dan cinta terhadap alam dan lingkungan. Kegiatan kami
+                            meliputi hiking, berkemah, penelitian alam, konservasi dan kegiatan sosial lainnya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tombol bawah -->
+            <div class="nav">
+                <a href="#profile" class="nav-item nav-count-1"><i class="ion-ios-person-outline"></i><span
+                        class="invisible">Profile</span></a>
+                <a href="#compose" class="nav-item nav-count-3"><i class="ion-ios-camera-outline"></i><span
+                        class="invisible">Gallery</span></a>
+                <a href="#chats" class="nav-item nav-count-4"><i class="ion-ios-videocam-outline"></i><span
+                        class="invisible">Moments</span></a>
+                <a href="#alarm" class="nav-item nav-count-2"><i class="ion-ios-people-outline"></i><span
+                        class="invisible">Member</span></a>
+                <a href="#toggle" class="mask"><i class="ion-ios-plus-empty"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $(function () {
+            App.init();
+        });
+        var App = {
+            init: function () {
+                this.datetime(), this.side.nav(), this.search.bar(), this.navigation(), this.hyperlinks(), setInterval("App.datetime();", 1e3)
+            },
+            datetime: function () {
+                var e = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
+                    t = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"),
+                    a = new Date,
+                    i = a.getYear();
+                1e3 > i && (i += 1900);
+                var s = a.getDay(),
+                    n = a.getMonth(),
+                    r = a.getDate();
+                10 > r && (r = "0" + r);
+                var l = a.getHours(),
+                    c = a.getMinutes(),
+                    h = a.getSeconds(),
+                    o = "AM";
+                l >= 12 && (o = "PM"), l > 12 && (l -= 12), 0 == l && (l = 12), 9 >= c && (c = "0" + c), 9 >= h && (h = "0" + h), $(".welcome .datetime .day").text(e[s]), $(".welcome .datetime .date").text(t[n] + " " + r + ", " + i), $(".welcome .datetime .time").text(l + ":" + c + ":" + h + " " + o)
+            },
+            title: function (e) {
+                return $(".header>.title").text(e)
+            },
+            side: {
+                nav: function () {
+                    this.toggle(), this.navigation()
+                },
+                toggle: function () {
+                    $(".ion-ios-navicon").on("touchstart click", function (e) {
+                        e.preventDefault(), $(".sidebar").toggleClass("active"), $(".nav").removeClass("active"), $(".sidebar .sidebar-overlay").removeClass("fadeOut animated").addClass("fadeIn animated")
+                    }), $(".sidebar .sidebar-overlay").on("touchstart click", function (e) {
+                        e.preventDefault(), $(".ion-ios-navicon").click(), $(this).removeClass("fadeIn").addClass("fadeOut")
+                    })
+                },
+                navigation: function () {
+                    $(".nav-left a").on("touchstart click", function (e) {
+                        e.preventDefault();
+                        var t = $(this).attr("href").replace("#", "");
+                        $(".sidebar").toggleClass("active"), $(".html").removeClass("visible"), "home" == t || "" == t || null == t ? $(".html.welcome").addClass("visible") : $(".html." + t).addClass("visible"), App.title($(this).text())
+                    })
+                }
+            },
+            search: {
+                bar: function () {
+                    $(".header .ion-ios-search").on("touchstart click", function () {
+                        var e = ($(".header .search input").hasClass("search-visible"), $(".header .search input").val());
+                        return "" != e && null != e ? (App.search.html($(".header .search input").val()), !1) : ($(".nav").removeClass("active"), $(".header .search input").focus(), void $(".header .search input").toggleClass("search-visible"))
+                    }), $(".search form").on("submit", function (e) {
+                        e.preventDefault(), App.search.html($(".header .search input").val())
+                    })
+                },
+                html: function (e) {
+                    $(".search input").removeClass("search-visible"), $(".html").removeClass("visible"), $(".html.search").addClass("visible"), App.title("Result"), $(".html.search").html($(".html.search").html()), $(".html.search .key").html(e), $(".header .search input").val("")
+                }
+            },
+            navigation: function () {
+                $(".nav .mask").on("touchstart click", function (e) {
+                    e.preventDefault(), $(this).parent().toggleClass("active")
+                })
+            },
+            hyperlinks: function () {
+                $(".nav .nav-item").on("click", function (e) {
+                    e.preventDefault();
+                    var t = $(this).attr("href").replace("#", "");
+                    $(".html").removeClass("visible"), $(".html." + t).addClass("visible"), $(".nav").toggleClass("active"), App.title($(this).text())
+                })
+            }
+        };
+    </script>
+
+</body>
+
+</html>
